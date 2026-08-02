@@ -1,7 +1,27 @@
 aid: swivl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swivl.png
 name: swivl
-description: swivl is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  swivl is an AI automation platform built specifically for the self-storage
+  industry. It combines a unified CRM and contact center that consolidates
+  calls, texts, emails, and chats with AI agents for sales, billing, support,
+  and review management, plus a tenant mobile app (Spot) for access codes,
+  payments, and referrals. Its self-storage natural-language model is trained on
+  hundreds of thousands of customer conversations and serves 3,500+ locations.
+  Founded in New York City and backed by Techstars, swivl advertises open APIs
+  and integrations with major self-storage management systems, but publishes no
+  public developer portal, API reference, or machine-readable API specification.
 url: https://raw.githubusercontent.com/api-evangelist/swivl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Self Storage
+- Proptech
+- Artificial Intelligence
+- CRM
+- Contact Center
+- Automation
+- Conversational AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swivl-domain-security.yml
 - type: Website
-  url: https://tryswivl.com/
+  url: https://www.tryswivl.com/
+- type: Blog
+  url: https://www.tryswivl.com/blog
+- type: Integrations
+  url: https://www.tryswivl.com/integrations
+- type: SignUp
+  url: https://www.tryswivl.com/signup
+- type: Login
+  url: https://www.tryswivl.com/login
+- type: TermsOfService
+  url: https://www.tryswivl.com/legal/tos
+- type: PrivacyPolicy
+  url: https://www.tryswivl.com/legal/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
