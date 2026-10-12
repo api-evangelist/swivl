@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/swivl/integrations
+- https://n8n.io/integrations/swivl/
+- https://composio.dev/toolkits/swivl
+- https://monid.ai/tools/swivl
+checked:
+- https://composio.dev/toolkits/swivl
+- https://monid.ai/tools/swivl
+- https://n8n.io/integrations/swivl/
+- https://zapier.com/apps/swivl/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
