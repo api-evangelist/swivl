@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/swivl/integrations
 - https://n8n.io/integrations/swivl/
@@ -10,7 +10,25 @@ checked:
 - https://monid.ai/tools/swivl
 - https://n8n.io/integrations/swivl/
 - https://zapier.com/apps/swivl/integrations
+- hubspot/integrations/hubspot-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: HubSpot (own)
+  partner: hubspot
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/swivl-204173
+  mirror_of: hubspot/integrations/hubspot-integration-edges.yml
+  apps:
+  - swivl
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: MARKETING_AUTOMATION
 templates: []
